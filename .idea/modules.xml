@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Navigato.iml" filepath="$PROJECT_DIR$/Navigato.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgressDialog/ProgressDialog.iml" filepath="$PROJECT_DIR$/ProgressDialog/ProgressDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tourguide.iml" filepath="$PROJECT_DIR$/tourguide.iml" />
     </modules>
   </component>
 </project>
