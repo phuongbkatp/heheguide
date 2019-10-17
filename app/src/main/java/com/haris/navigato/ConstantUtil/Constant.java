@@ -68,17 +68,17 @@ public class Constant {
      * <p>It contain all of the API keys from different Services</p>
      */
     public static class Credentials {
-        public static String GOOGLE_API_KEY = "google_places_api_key";
-        public static String GOOGLE_API_KEY_PHOTO = "google_places_api_key";
-        public static String GOOGLE_API_KEY_TOP_PLACES = "google_places_api_key";
-        public static String GOOGLE_SERVER_KEY = "google_places_api_key";
+        public static String GOOGLE_API_KEY = "AIzaSyAGW6xw4MhGjqbe8QTj4CWVhe2SCIQeLok";
+        public static String GOOGLE_API_KEY_PHOTO = "AIzaSyAGW6xw4MhGjqbe8QTj4CWVhe2SCIQeLok";
+        public static String GOOGLE_API_KEY_TOP_PLACES = "AIzaSyAGW6xw4MhGjqbe8QTj4CWVhe2SCIQeLok";
+        public static String GOOGLE_SERVER_KEY = "AIzaSyAGW6xw4MhGjqbe8QTj4CWVhe2SCIQeLok";
 
         public static String ADMOB_TEST_DEVICE_ID = "ADMOB_TEST_DEVICE_ID";
         public static String ADMOB_APP_ID = "ADMOB_APP_ID";
         public static String ADMOB_INTERSTITIAL_ID = "ADMOB_INTERSTITIAL_ID";
 
-        public static String DARK_SKY_API_KEY = "dark_sky_api_key";
-        public static String MAP_BOX_API_KEY = "map_box_api_key";
+        public static String DARK_SKY_API_KEY = "a404322d97c00e56a5c4479945a39325";
+        public static String MAP_BOX_API_KEY = "pk.eyJ1Ijoibmd1eWVudGh1eWxpbmhtaW45MiIsImEiOiJjazF1eXZ1YjEwNHpoM2pwNHFzNTU4N3g5In0.fhBB0-_N0VTn1zTpvK-KNg";
         public static String UBER_CLIENT_ID = "uber_client_id";
         public static String UBER_CLIENT_SECRET = "uber_client_secret";
         public static String UBER_SERVER_TOKEN = "uber_server_token";
