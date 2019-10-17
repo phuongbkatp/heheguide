@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:uber="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".FragmentUtil.Setting">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/menu_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/radius_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:text="@string/radius_desc"
+                        android:textColor="@color/lightBlue"
+                        android:textSize="@dimen/_9sdp" />
+
+
+                    <com.xw.repo.BubbleSeekBar
+                        android:id="@+id/seekbar_radius"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        app:bsb_bubble_color="@color/colorPrimaryDark"
+                        app:bsb_bubble_text_color="@color/white"
+                        app:bsb_is_float_type="false"
+                        app:bsb_max="20000"
+                        app:bsb_min="1000"
+                        app:bsb_progress="4500"
+                        app:bsb_second_track_color="@color/colorPrimaryDark"
+                        app:bsb_section_count="5"
+                        app:bsb_section_text_position="bottom_sides"
+                        app:bsb_show_progress_in_float="false"
+                        app:bsb_show_section_mark="true"
+                        app:bsb_show_section_text="true"
+                        app:bsb_show_thumb_text="true"
+                        app:bsb_track_color="@color/lightBlue" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/history_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp">
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:paddingRight="6dp"
+                            android:text="@string/history_desc"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+                            android:id="@+id/txt_history"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/add_round_btn_bg"
+                            android:gravity="center"
+                            android:text="Check"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_8sdp"
+
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_backup"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+                        android:id="@+id/txt_backup_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/hud_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp">
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+                            android:id="@+id/txt_backup_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:paddingRight="6dp"
+                            android:text="@string/hud_desc"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <Switch
+                            android:id="@+id/switch_hud"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:theme="@style/CustomSwitch"
+                            android:thumbTint="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/share_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp">
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:paddingRight="6dp"
+                            android:text="@string/share_desc"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:id="@+id/txt_share"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/add_round_btn_bg"
+                            android:gravity="center"
+                            android:text="Share"
+                            android:textColor="@color/white"
+
+
+                            android:textSize="@dimen/_8sdp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/rate_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp">
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:paddingRight="6dp"
+                            android:text="@string/rate_desc"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:id="@+id/txt_rate"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/add_round_btn_bg"
+                            android:gravity="center"
+                            android:text="Rate"
+                            android:textColor="@color/white"
+                           android:textSize="@dimen/_8sdp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/remove_ad_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp">
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:paddingRight="6dp"
+                            android:text="@string/remove_ad_desc"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <Switch
+
+                            android:id="@+id/switch_ad"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:theme="@style/CustomSwitch"
+                            android:thumbTint="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="top"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+
+                    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:background="@color/light_grey"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="@string/ar_nav_label"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp">
+
+                        <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|start"
+                            android:paddingRight="6dp"
+                            android:text="@string/ar_nav_desc"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <Switch
+
+                            android:id="@+id/switch_ar"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:theme="@style/CustomSwitch"
+                            android:thumbTint="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_add_id"></com.google.android.gms.ads.AdView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

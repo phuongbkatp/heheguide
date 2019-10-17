@@ -1,0 +1,73 @@
+<resources>
+
+    <string name="app_name">Navigato</string>
+    <string name="tagline">Travelling With Ease</string>
+
+    <string name="heading_top">Top</string>
+    <string name="heading_places">Places</string>
+
+    <string name="restaurant">Restaurant</string>
+    <string name="heading_nearest">Nearest</string>
+    <string name="heading_near_places">Places</string>
+    <string name="heading_more">More</string>
+
+    <string name="get_direction">Get Directions</string>
+    <string name="no_review">There is no review available</string>
+
+    <string name="navigation_label">Start Navigation</string>
+    <string name="distance_label">Distance</string>
+    <string name="time_label">Time</string>
+    <string name="petrol_label">Petrol</string>
+    <string name="from_label">From</string>
+    <string name="to_label">To</string>
+
+    <string name="step_by_step">Step By Step </string>
+    <string name="ar_navigation">Ar Navigation</string>
+
+    <string name="radius_label">Coverage Area</string>
+    <string name="radius_desc">User can increase the radius or either area of searching nearby location which helps user to find wide places too</string>
+
+    <string name="hud_label">Hud View</string>
+    <string name="hud_desc">Enable it , if you want to enable Head up display mode for turn by turn navigation while driving at Night time</string>
+
+    <string name="history_label">Recent History</string>
+    <string name="history_desc">Check your previous history , all of the navigation data would be shown in history screen </string>
+
+    <string name="share_label">Share App</string>
+    <string name="share_desc">User can share app with their friends as well as family members so that they would also use this awesome app</string>
+
+    <string name="rate_label">Rate App</string>
+    <string name="rate_desc">If you find application useful for you or either it help you in any way so please Rate our app because it increase our courage</string>
+
+    <string name="remove_ad_label">Remove Ads</string>
+    <string name="remove_ad_desc">If you did not like advertisement in app , then you can also remove them by turning off it</string>
+
+    <string name="ar_nav_label">Ar Navigation</string>
+    <string name="ar_nav_desc">Enable "Augmented Reality" navigation in app which provide excellent experience to user &amp; provide new way of navigation</string>
+
+    <string name="no_favourite_title">No Favourites</string>
+    <string name="no_favourite_tagline">You did not favourite \nanything until yet</string>
+
+    <string name="no_history_title">No Location</string>
+    <string name="no_history_tagline">You did not travel \n anywhere until yet</string>
+
+    <string name="drizzling_warning">It\'s Drizzling ! Drive Carefully</string>
+    <string name="raining_warning">It\'s Raining ! Drive Carefully</string>
+    <string name="humid_warning">Humid Day ! Maintain AC Cooling</string>
+
+    <string name="no_picture_label">No Picture</string>
+    <string name="no_picture_tagline">There is no picture\navailable at that time</string>
+
+    <string name="address_copied">Copied Successfully</string>
+    <string name="url_not_available">Web link not available</string>
+    <string name="phone_not_available">Phone number not available</string>
+
+    <string name="taxi_tagline">Are you sure to hire Taxi Cab \n for reaching your Destination ?</string>
+    <string name="internet_tagline">Slow or no internet connection\nPlease check your internet settings</string>
+
+    <string name="google_map_key">your_google_place_api_key</string>
+    <string name="admob_add_id">your_admob_ads_key</string>
+    <string name="kindly_select_location">Kindly Select Location</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <com.haris.navigato.TextviewUtil.LemonMilkTextview
+                android:id="@+id/txt_place_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boulevard Mall Faisalabad"
+                android:textColor="@color/lightBlue"
+                android:textSize="@dimen/_8sdp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="3dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:padding="1dp"
+                    android:src="@drawable/car_bold_icon"
+                    android:tint="@color/lightBlue" />
+
+                <com.haris.navigato.TextviewUtil.UbuntuMediumTextview
+                    android:id="@+id/txt_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="25 Km Away"
+                    android:textColor="@color/lightBlue"
+                    android:textSize="@dimen/_7sdp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

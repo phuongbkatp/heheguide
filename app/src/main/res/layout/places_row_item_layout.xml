@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_location"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.haris.navigato.TextviewUtil.UbuntuRegularTextview
+        android:id="@+id/location_type_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="Hospitals"
+        android:textSize="@dimen/_11sdp" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/lightBlue"
+        android:gravity="center_vertical" />
+
+</LinearLayout>

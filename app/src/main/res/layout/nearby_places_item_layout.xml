@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="18dp">
+
+
+            <com.haris.navigato.TextviewUtil.UbuntuLightTextview
+                android:id="@+id/txt_nearest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heading_nearest"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_13sdp" />
+
+            <com.haris.navigato.TextviewUtil.UbuntuMediumTextview
+                android:id="@+id/txt_nearby_places"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/txt_nearest"
+                android:text="@string/heading_near_places"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_13sdp" />
+
+
+        </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_nearby"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="15dp"></android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

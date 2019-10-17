@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <ImageView
+            android:id="@+id/img_objective"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/travel_icon"
+            android:tint="@color/lightBlue"
+            android:visibility="visible" />
+
+        <com.haris.navigato.TextviewUtil.UbuntuMediumTextview
+            android:id="@+id/txt_objective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:textSize="@dimen/_9sdp"
+            android:text="Select Objective"
+            android:textColor="@color/lightBlue" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
